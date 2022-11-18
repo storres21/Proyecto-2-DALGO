@@ -21,7 +21,7 @@ def alfabeto_pandora(palabras):
     try:
         return orden_topologico(grafo)
     except:
-        return print("ERROR")
+        return ("ERROR")
     
 
 def construir_grafo(words):
